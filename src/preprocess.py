@@ -38,7 +38,7 @@ def main():
     ]:
         x = normalize(x)
         np.savez_compressed(output / f"{name}.npz", images=x, labels=y)
-        print(f"{name}: {len(y)} images")
+        print(f"{name}: {len(y)} images, pixel range {x.min():.1f} to {x.max():.1f}")
 
 
 if __name__ == "__main__":
