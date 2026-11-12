@@ -1,0 +1,11 @@
+.venv/ 
+venv/ 
+__pycache__/ 
+.dvc/cache/ 
+.dvc/config.local 
+.dvc/tmp/ 
+*.h5 
+.env 
+credentials.json 
+client_secrets*.json 
+token.json
